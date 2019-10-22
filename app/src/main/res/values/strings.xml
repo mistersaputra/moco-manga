@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Moco Manga</string>
+    <string name="title_beranda">Beranda</string>
+    <string name="title_rak_buku">Rak Buku</string>
+    <string name="title_cari">Cari</string>
+    <string name="title_rekomen">Rekomen</string>
+    <string name="title_pengaturan">Setting</string>
+</resources>

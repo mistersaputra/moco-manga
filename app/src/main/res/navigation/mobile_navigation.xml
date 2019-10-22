@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_beranda">
+
+    <fragment
+        android:id="@+id/navigation_beranda"
+        android:name="com.example.mocomanga.ui.beranda.BerandaFragment"
+        android:label="@string/title_beranda"
+        tools:layout="@layout/fragment_beranda" />
+
+    <fragment
+        android:id="@+id/navigation_rak_buku"
+        android:name="com.example.mocomanga.ui.rak_buku.RakBukuFragment"
+        android:label="@string/title_rak_buku"
+        tools:layout="@layout/fragment_rak_buku" />
+
+    <fragment
+        android:id="@+id/navigation_cari"
+        android:name="com.example.mocomanga.ui.cari.CariFragment"
+        android:label="@string/title_cari"
+        tools:layout="@layout/fragment_cari" />
+
+    <fragment
+        android:id="@+id/navigation_rekomen"
+        android:name="com.example.mocomanga.ui.rekomen.RekomenFragment"
+        android:label="@string/title_rekomen"
+        tools:layout="@layout/fragment_rekomen" />
+
+    <fragment
+        android:id="@+id/navigation_pengaturan"
+        android:name="com.example.mocomanga.ui.pengaturan.PengaturanFragment"
+        android:label="@string/title_pengaturan"
+        tools:layout="@layout/fragment_pengaturan" />
+
+</navigation>
