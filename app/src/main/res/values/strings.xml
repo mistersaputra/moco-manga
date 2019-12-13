@@ -5,4 +5,5 @@
     <string name="title_cari">Cari</string>
     <string name="title_rekomen">Rekomen</string>
     <string name="title_pengaturan">Setting</string>
+    <string name="title_activity_komik_detail">KomikDetailActivity</string>
 </resources>
